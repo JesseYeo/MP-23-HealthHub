@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 1161875288}
   - component: {fileID: 1161875287}
   - component: {fileID: 1161875286}
+  - component: {fileID: 1161875289}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -425,7 +426,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1161875287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1161875289}
+        m_TargetAssemblyTypeName: ScamEmail, Assembly-CSharp
+        m_MethodName: MoveToScamWebsite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1161875287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +477,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161875284}
   m_CullTransparentMesh: 1
+--- !u!114 &1161875289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161875284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9144e4f3b9c983e4eb76779686ac4fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1321589633
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +670,7 @@ GameObject:
   - component: {fileID: 1795635634}
   - component: {fileID: 1795635633}
   - component: {fileID: 1795635632}
+  - component: {fileID: 1795635635}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -701,6 +727,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795635635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795635631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9144e4f3b9c983e4eb76779686ac4fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2091724578
 GameObject:
   m_ObjectHideFlags: 0
