@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Phishing Scam/Scenes/Google Screen.unity
     guid: a989c50bfe9a90048affaee2fb24bceb
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Singpost website.unity
+    path: Assets/Phishing Scam/Scenes/Singpost Website.unity
     guid: 15f0c8d2c1a06054bb58c68db692ea23
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Track1.unity
@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Win.unity
     guid: 8a60e3f09d024194aafbb82914e012e6
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Payment Screen.unity
+    guid: c1ae73802e9426045bf00d0952d20640
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/PaymentLoadingScreen.unity
+    guid: 0328c0949c31ed14dbde21581ce9267c
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Scam Notification.unity
+    guid: 47bf53dbc9fd35145bfdd7d36d8a1b68
   m_configObjects: {}
