@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Singpost website.unity
     guid: 15f0c8d2c1a06054bb58c68db692ea23
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Track1.unity
+    guid: 9359350544cf05d4e94ea32f8720c187
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Track2.unity
+    guid: 3e6f62f83b06a89469cb38bd78e3bafb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Win.unity
+    guid: 8a60e3f09d024194aafbb82914e012e6
   m_configObjects: {}
