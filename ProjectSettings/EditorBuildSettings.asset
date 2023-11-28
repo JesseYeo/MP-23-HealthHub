@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Scam Website screen.unity
     guid: 23d36be724239d94080c55102c653e7d
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Add Tabs Screen.unity
+    guid: 024ea178e4ddd2945870eb0bc64f32a8
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Google Screen.unity
+    guid: a989c50bfe9a90048affaee2fb24bceb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Singpost website.unity
+    guid: 15f0c8d2c1a06054bb58c68db692ea23
   m_configObjects: {}
