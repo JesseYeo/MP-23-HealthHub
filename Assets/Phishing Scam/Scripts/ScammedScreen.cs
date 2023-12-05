@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HomeButton : MonoBehaviour
+public class ScammedScreen : MonoBehaviour
 {
-    public void MoveToLevelMenu1(int sceneID)
+    public void MoveToLoseScreen(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }
