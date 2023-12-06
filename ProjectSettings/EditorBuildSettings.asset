@@ -65,4 +65,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Level1ClearedMenu.unity
     guid: c157c509c275a6749a93fed4cb255356
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level2Menu.unity
+    guid: d67a2638ada38ea409cf7ba80e438415
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel2Win.unity
+    guid: 23cadf54be9bc9c4aaf0d80b29d57f41
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level2ClearedMenu.unity
+    guid: 7434d0043b46cb84cbde276d7b01c63f
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level3Menu.unity
+    guid: 1207441fdfa7e7948b62296a934c1ecf
   m_configObjects: {}
