@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Level3Menu.unity
     guid: 1207441fdfa7e7948b62296a934c1ecf
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel3Win.unity
+    guid: 9ae3319e4b7042c4abda0fe440dda8d3
   m_configObjects: {}
