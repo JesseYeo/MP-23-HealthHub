@@ -80,4 +80,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/LevelMenuLevel3Win.unity
     guid: 9ae3319e4b7042c4abda0fe440dda8d3
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/ReturntoScamEmail.unity
+    guid: 9abfb07dfb310ce4e989f3cd19988ff5
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/SingPostToScamEmail.unity
+    guid: e2da8849a4e000f45b8a12ba3efc60a9
   m_configObjects: {}
