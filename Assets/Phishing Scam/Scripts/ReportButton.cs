@@ -5,8 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class ReportButton : MonoBehaviour
 {
-    public void MoveToReportScreen(int sceneID)
+    //public void MoveToReportScreen(int sceneID)
+    //{
+    //    SceneManager.LoadScene(sceneID);
+    //}
+
+    public GameObject gameObject;
+    bool active;
+
+    public void OpenAndClose()
     {
-        SceneManager.LoadScene(sceneID);
+        if (active == false)
+        {
+            gameObject.transform.gameObject.SetActive(true);
+            active = true;
+        }
+        else
+        {
+            gameObject.transform.gameObject.SetActive(false);
+            active = false;
+        }
     }
 }
