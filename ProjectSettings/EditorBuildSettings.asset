@@ -86,4 +86,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/SingPostToScamEmail.unity
     guid: e2da8849a4e000f45b8a12ba3efc60a9
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ScamEmailToReport.unity
+    guid: f24dfc663fa90cf488c2381b791fad05
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ReportScreenToReportComplete.unity
+    guid: ded6c7ba0c53df34793b82951153aa6f
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ScamEmailafterReportOnly.unity
+    guid: ad1fb66905c82994abe945dcfa39f832
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/Win2StarReportOnly.unity
+    guid: edb49d19a542b0a49a8c9710892e0748
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ToDeleteScreen.unity
+    guid: 82855963d89c819428ce51db286c42e2
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/DeleteComplete.unity
+    guid: a8e4d58ea4565c64f888668490d5187c
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ScamEmailafterDelete.unity
+    guid: 60f7e0217ae40b846bc786376fa5fdcb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/Win3Star.unity
+    guid: e511d7bbeb170814a9ab3f67503cd783
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/ToDeleteScam.unity
+    guid: a8e0d328b19523441aeb80849437d0a7
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/ToDeleteComplete.unity
+    guid: 0b190872fa778994cb3ef6b2ebd2b29b
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/ScamEmailafterDeleteScam.unity
+    guid: a7fa6e1d1db2829489e16022bb0635fb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/Win2StarDeleteOnly.unity
+    guid: 36321a60379a2ce4aa168ce687f00773
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ToReportScreen.unity
+    guid: 01d944ad2a84db14fbb61644c60ffb39
   m_configObjects: {}
