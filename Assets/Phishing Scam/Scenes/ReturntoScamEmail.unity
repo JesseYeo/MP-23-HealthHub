@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1176,7 +1176,6 @@ GameObject:
   - component: {fileID: 811072486}
   - component: {fileID: 811072485}
   - component: {fileID: 811072484}
-  - component: {fileID: 811072487}
   m_Layer: 5
   m_Name: ReportButton
   m_TagString: Untagged
@@ -1202,7 +1201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 488, y: 545}
+  m_AnchoredPosition: {x: 437, y: 545}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811072484
@@ -1249,7 +1248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811072487}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ScamEmailToReport, Assembly-CSharp
         m_MethodName: MoveToReportScreen
         m_Mode: 3
@@ -1299,18 +1298,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811072481}
   m_CullTransparentMesh: 1
---- !u!114 &811072487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811072481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f2e52be089e14e4ba04ab8e970a8cdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &830231407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,7 +1488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282, y: -1030}
+  m_AnchoredPosition: {x: 370, y: -1163}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860136665
@@ -1770,7 +1757,7 @@ GameObject:
   - component: {fileID: 1043513546}
   - component: {fileID: 1043513545}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Scam Email
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1922,7 +1909,6 @@ GameObject:
   - component: {fileID: 1223190023}
   - component: {fileID: 1223190022}
   - component: {fileID: 1223190021}
-  - component: {fileID: 1223190024}
   m_Layer: 5
   m_Name: DeleteButton
   m_TagString: Untagged
@@ -1948,7 +1934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 476, y: -852}
+  m_AnchoredPosition: {x: 446, y: -852}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223190021
@@ -1995,7 +1981,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1223190024}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToDelete, Assembly-CSharp
         m_MethodName: MoveToDeleteScam
         m_Mode: 3
@@ -2045,18 +2031,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223190018}
   m_CullTransparentMesh: 1
---- !u!114 &1223190024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223190018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90d6dc5439c9404a9f61c635d406ff0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1258130264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,7 +2894,7 @@ GameObject:
   - component: {fileID: 1868614352}
   - component: {fileID: 1868614351}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Header
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
