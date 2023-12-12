@@ -128,4 +128,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/StarGradingSystem/DoNothingroute/Win1Star.unity
     guid: c60d0fbf9719f024193cedff6caf6f81
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ReportComplete.unity
+    guid: dc9f64a03524f2541abf3b3cf9a6c728
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ScamEmailafterReport.unity
+    guid: f4537f3c3c225ca48b341733290a4484
   m_configObjects: {}
