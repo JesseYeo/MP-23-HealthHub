@@ -6,43 +6,43 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Scam Email screen.unity
+    path: Assets/Phishing Scam/Scenes/01Scam Email screen.unity
     guid: b7310064157aaeb4bbe818a09def3315
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Scam Website screen.unity
+    path: Assets/Phishing Scam/Scenes/02Scam Website screen.unity
     guid: 23d36be724239d94080c55102c653e7d
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Add Tabs Screen.unity
+    path: Assets/Phishing Scam/Scenes/03Add Tabs Screen.unity
     guid: 024ea178e4ddd2945870eb0bc64f32a8
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Google Screen.unity
+    path: Assets/Phishing Scam/Scenes/04Google Screen.unity
     guid: a989c50bfe9a90048affaee2fb24bceb
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Singpost website.unity
+    path: Assets/Phishing Scam/Scenes/05Singpost Website.unity
     guid: 15f0c8d2c1a06054bb58c68db692ea23
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Track1.unity
+    path: Assets/Phishing Scam/Scenes/06Track.unity
     guid: 9359350544cf05d4e94ea32f8720c187
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Track2.unity
     guid: 3e6f62f83b06a89469cb38bd78e3bafb
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/ScamIdentifiedScreen.unity
+    path: Assets/Phishing Scam/Scenes/09ScamIdentifiedScreen.unity
     guid: 8a60e3f09d024194aafbb82914e012e6
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/Payment Screen.unity
+    path: Assets/Phishing Scam/Scenes/01Payment Screen.unity
     guid: c1ae73802e9426045bf00d0952d20640
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/PaymentLoadingScreen.unity
+    path: Assets/Phishing Scam/Scenes/02PaymentLoadingScreen.unity
     guid: 0328c0949c31ed14dbde21581ce9267c
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/Scam Notification.unity
     guid: 47bf53dbc9fd35145bfdd7d36d8a1b68
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/PaymentCompleteScreen.unity
+    path: Assets/Phishing Scam/Scenes/03PaymentCompleteScreen.unity
     guid: 2ac9f0de0150c6040a07fa31163cb612
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/ScammedScreen.unity
+    path: Assets/Phishing Scam/Scenes/04ScammedScreen.unity
     guid: 33b5e1c8e4d3ed847918a1b0f160379e
   - enabled: 1
     path: Assets/Menus/Scenes/Start Menu.unity
@@ -81,10 +81,10 @@ EditorBuildSettings:
     path: Assets/Menus/Scenes/LevelMenuLevel3Win.unity
     guid: 9ae3319e4b7042c4abda0fe440dda8d3
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/ReturntoScamEmail.unity
+    path: Assets/Phishing Scam/Scenes/08ReturntoScamEmail.unity
     guid: 9abfb07dfb310ce4e989f3cd19988ff5
   - enabled: 1
-    path: Assets/Phishing Scam/Scenes/SingPostToScamEmail.unity
+    path: Assets/Phishing Scam/Scenes/07SingPostToScamEmail.unity
     guid: e2da8849a4e000f45b8a12ba3efc60a9
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ScamEmailToReport.unity
