@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishReportandDelete : MonoBehaviour
+public class FinishingStory : MonoBehaviour
 {
-    public void MoveToFinishingStory(int sceneID)
+    public void MoveToWin3Star(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }
