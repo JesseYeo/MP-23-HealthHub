@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishingStory : MonoBehaviour
+public class FinishingStory2 : MonoBehaviour
 {
-    public void MoveToFinishingStory2(int sceneID)
+    public void MoveToWin3Star(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }

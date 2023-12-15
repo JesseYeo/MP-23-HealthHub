@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartingStory : MonoBehaviour
 {
-    public void MoveToScamNotification(int sceneID)
+    public void MoveToStartingStory2(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }
