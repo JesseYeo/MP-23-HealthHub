@@ -943,7 +943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 315469254}
-  gameObjectHighlight: {fileID: 0}
+  gameObjectHighlight: {fileID: 417366941}
 --- !u!4 &719894068
 Transform:
   m_ObjectHideFlags: 0
