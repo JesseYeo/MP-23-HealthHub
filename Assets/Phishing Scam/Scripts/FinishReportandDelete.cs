@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FinishReportandDelete : MonoBehaviour
 {
-    public void MoveToWin3StarReportandDelete(int sceneID)
+    public void MoveToFinishingStory(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }

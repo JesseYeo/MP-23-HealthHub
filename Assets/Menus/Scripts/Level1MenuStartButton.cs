@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Level1MenuStartButton : MonoBehaviour
 {
-    public void MoveToScamNotification(int sceneID)
+    public void MoveToStartingStory(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }
