@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/02PaymentLoadingScreen.unity
     guid: 0328c0949c31ed14dbde21581ce9267c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Phishing Scam/Scenes/01 Scam Notification.unity
     guid: 47bf53dbc9fd35145bfdd7d36d8a1b68
   - enabled: 1
@@ -155,4 +155,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/FinishingStory2.unity
     guid: c7750bfdadd73ec42a73adff28456fba
+  - enabled: 1
+    path: Assets/Malware Scam/02 Lock Screen.unity
+    guid: 6e4481a4e033700449ba618ca1fbde3f
   m_configObjects: {}

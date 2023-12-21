@@ -18,17 +18,25 @@ public class SendMessage : MonoBehaviour
     public GameObject messagedisplay2;
     //public GameObject messagedisplay3;
 
+    public GameObject optionselect2;
+    public GameObject optionselect3;
+
     public void onSendMessage()
     {
         if (messagedisplay1.activeSelf)
         {
             messagedisplay1.SetActive(false);
             playerchatbubble1.SetActive(true);
+            unknownchatbubble1.SetActive(true);
+            optionselect2.SetActive(true);
         }
 
-        if (messagedisplay2)
+        if (messagedisplay2.activeSelf)
         {
-
+            messagedisplay2.SetActive(false);
+            playerchatbubble2.SetActive(true);
+            unknownchatbubble2.SetActive(true);
+            optionselect3.SetActive(true);
         }
 
     }
