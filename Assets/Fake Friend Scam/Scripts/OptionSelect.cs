@@ -7,9 +7,13 @@ public class OptionSelect : MonoBehaviour
 {
     public GameObject chatoption1;
     public GameObject chatoption2;
+    public GameObject chatoption3;
+    public GameObject chatoption4;
 
     public GameObject messagedisplay1;
-    public GameObject messagedisplay2;
+    public GameObject messagedisplay2; 
+    public GameObject messagedisplay3;
+    public GameObject messagedisplay4;
 
     public bool option1;
     public bool option2;
@@ -36,5 +40,27 @@ public class OptionSelect : MonoBehaviour
         option2 = true;
         chatoption2.SetActive(false);
         messagedisplay2.SetActive(true);
+    }
+
+    public void onSelectOption3()
+    {
+        option3 = true;
+        chatoption3.SetActive(false);
+        if (chatoption4.activeSelf)
+        {
+            chatoption4.SetActive(false);
+        }
+        messagedisplay3.SetActive(true);
+    }
+
+    public void onSelectOption4()
+    {
+        option4 = true;
+        chatoption4.SetActive(false);
+        if (chatoption3.activeSelf)
+        {
+            chatoption3.SetActive(false);
+        }
+        messagedisplay4.SetActive(true);
     }
 }

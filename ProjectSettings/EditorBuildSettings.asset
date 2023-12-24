@@ -35,8 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/02PaymentLoadingScreen.unity
     guid: 0328c0949c31ed14dbde21581ce9267c
+<<<<<<< Updated upstream
   - enabled: 0
     path: 
+=======
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/Scam Notification.unity
+>>>>>>> Stashed changes
     guid: 47bf53dbc9fd35145bfdd7d36d8a1b68
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/03PaymentCompleteScreen.unity
