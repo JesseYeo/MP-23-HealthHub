@@ -942,18 +942,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789876780}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 921295071}
-  m_Father: {fileID: 970415663}
+  m_Father: {fileID: 860808119}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 485, y: 793}
+  m_AnchoredPosition: {x: 262, y: 747}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789876782
@@ -1050,8 +1050,8 @@ GameObject:
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
   - component: {fileID: 829464568}
-  - component: {fileID: 829464569}
   - component: {fileID: 829464570}
+  - component: {fileID: 829464571}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1123,9 +1123,11 @@ MonoBehaviour:
   playerchatbubble1: {fileID: 546438148}
   playerchatbubble2: {fileID: 2044557066}
   playerchatbubble3: {fileID: 1570285706}
+  playerchatbubble4: {fileID: 0}
   unknownchatbubble1: {fileID: 845592677}
   unknownchatbubble2: {fileID: 1855375034}
   unknownchatbubble3: {fileID: 1995732406}
+  unknownchatbubble4: {fileID: 0}
   messagedisplay1: {fileID: 1698745600}
   messagedisplay2: {fileID: 408257881}
   messagedisplay3: {fileID: 55660068}
@@ -1133,18 +1135,6 @@ MonoBehaviour:
   optionselect2: {fileID: 1756223044}
   optionselect3: {fileID: 1591025087}
   optionselect4: {fileID: 887032403}
---- !u!114 &829464569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &829464570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,6 +1159,19 @@ MonoBehaviour:
   option2: 0
   option3: 0
   option4: 0
+--- !u!114 &829464571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829464564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 789876780}
 --- !u!1 &845592677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1279,7 @@ RectTransform:
   - {fileID: 970415663}
   - {fileID: 1936419293}
   - {fileID: 1718038533}
+  - {fileID: 789876781}
   m_Father: {fileID: 1589945175}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1488,7 +1492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Report
 --- !u!222 &921295073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1663,7 +1667,6 @@ RectTransform:
   - {fileID: 1651937697}
   - {fileID: 374943729}
   - {fileID: 952500534}
-  - {fileID: 789876781}
   m_Father: {fileID: 860808119}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2674,7 +2677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1633610450}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829464571}
+        m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
+        m_MethodName: OpenSettings
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1633610450
 MonoBehaviour:
   m_ObjectHideFlags: 0

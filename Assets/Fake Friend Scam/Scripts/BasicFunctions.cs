@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class OpenChat : MonoBehaviour
+public class BasicFunctions : MonoBehaviour
 {
+    public GameObject settings;
 
     public void OpenUnknownNoChat()
     {
@@ -19,5 +21,17 @@ public class OpenChat : MonoBehaviour
     public void BackToChats()
     {
         SceneManager.LoadScene("ChatsMenu");
+    }
+
+    public void OpenSettings()
+    {
+        if (settings.activeSelf == true)
+        {
+            settings.SetActive(false);
+        }
+        else
+        {
+            settings.SetActive(true);
+        }
     }
 }

@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Fake Friend Scam/Scenes/ChatsMenu.unity
+    path: Assets/Menus/Scenes/Level 2/ChatsMenu.unity
     guid: 17cde02fc4f30e2499bc814e747a1487
   - enabled: 1
-    path: Assets/Fake Friend Scam/Scenes/StevenChat.unity
+    path: Assets/Menus/Scenes/Level 2/StevenChat.unity
     guid: 426479339bfda904e85ace7ce9695f28
   - enabled: 1
-    path: Assets/Fake Friend Scam/Scenes/UnknownNoChat.unity
+    path: Assets/Menus/Scenes/Level 2/UnknownNoChat.unity
     guid: e312f2601b6af78418c42fca94a65b21
   m_configObjects: {}
