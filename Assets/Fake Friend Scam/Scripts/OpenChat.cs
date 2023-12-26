@@ -1,14 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenChat : MonoBehaviour
 {
-    public GameObject mainpage;
-    public GameObject unknownchat;
- public void OpenUnknown()
+
+    public void OpenUnknownNoChat()
     {
-        mainpage.SetActive(false);
-        unknownchat.SetActive(true);
+        SceneManager.LoadScene("UnknownNoChat");
+    }
+
+    public void OpenStevenChat()
+    {
+        SceneManager.LoadScene("StevenChat");
+    }
+
+    public void BackToChats()
+    {
+        SceneManager.LoadScene("ChatsMenu");
     }
 }
