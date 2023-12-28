@@ -95,4 +95,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/09ScamIdentifiedScreen.unity
     guid: 8a60e3f09d024194aafbb82914e012e6
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/01Payment Screen.unity
+    guid: c1ae73802e9426045bf00d0952d20640
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/02PaymentLoadingScreen.unity
+    guid: 0328c0949c31ed14dbde21581ce9267c
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/03PaymentCompleteScreen.unity
+    guid: 2ac9f0de0150c6040a07fa31163cb612
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/04ScammedScreen.unity
+    guid: 33b5e1c8e4d3ed847918a1b0f160379e
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/LoseScreen.unity
+    guid: 7798e5e2c10a8c4478c5adf7f83034c0
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel1Win.unity
+    guid: 42626996eb6d9df47b0d5484a940fc56
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 1/Level1ClearedMenu.unity
+    guid: c157c509c275a6749a93fed4cb255356
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2ClearedMenu.unity
+    guid: 7434d0043b46cb84cbde276d7b01c63f
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2Menu.unity
+    guid: d67a2638ada38ea409cf7ba80e438415
   m_configObjects: {}
