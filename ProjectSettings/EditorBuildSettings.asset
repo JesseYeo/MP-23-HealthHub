@@ -122,4 +122,70 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Level 2/Level2Menu.unity
     guid: d67a2638ada38ea409cf7ba80e438415
+  - enabled: 0
+    path: Assets/Malware Scam/000 Scene Template.unity
+    guid: 90483ec0bfdae6943bb7d476d000abab
+  - enabled: 1
+    path: Assets/Malware Scam/01a Starting Screen.unity
+    guid: 0b26a284f33ffff43a48c4bed1eac986
+  - enabled: 1
+    path: Assets/Malware Scam/01b Starting Screen.unity
+    guid: dda6ecadc8b025a41805e21b6183fa24
+  - enabled: 1
+    path: Assets/Malware Scam/02 Lock Screen.unity
+    guid: 6e4481a4e033700449ba618ca1fbde3f
+  - enabled: 1
+    path: Assets/Malware Scam/03 Scam SMS.unity
+    guid: 04cece61127e28347a793264db6e2e94
+  - enabled: 1
+    path: Assets/Malware Scam/03b Scam Block.unity
+    guid: cdc9677989f45284485b339a94c78e51
+  - enabled: 1
+    path: Assets/Malware Scam/04 Messages Clear.unity
+    guid: d3080deba9a1b6643bd9ac93bf18623f
+  - enabled: 1
+    path: Assets/Malware Scam/04b End Avoid.unity
+    guid: 6db5ca65f073e1e428ae3a8a87c9f0c7
+  - enabled: 1
+    path: Assets/Malware Scam/05 Scam DL.unity
+    guid: 739c06508fbe8da4680ab80a48747c6d
+  - enabled: 1
+    path: Assets/Malware Scam/06 DL Page.unity
+    guid: c111211ca8bd05e4b9c0ed429d724f05
+  - enabled: 1
+    path: Assets/Malware Scam/07 Fake Login.unity
+    guid: fc78dd6647920b048b5a65960bd8df29
+  - enabled: 1
+    path: Assets/Malware Scam/09 Load 1.unity
+    guid: 8e94062bf35eb0940a2fd1eba005c59e
+  - enabled: 1
+    path: Assets/Malware Scam/10 Load 2.unity
+    guid: 2b2eedf67016adf4a93d08a9e16254c0
+  - enabled: 1
+    path: Assets/Malware Scam/11 Transactions.unity
+    guid: 79c1f05db0435014d8f2fccab82bc6ba
+  - enabled: 1
+    path: Assets/Malware Scam/12 End Scam Lose.unity
+    guid: 91c8c2a061252ec43b11425b6e44140c
+  - enabled: 1
+    path: Assets/Malware Scam/90 Scam Shield 1.unity
+    guid: 81fb512fe4932a944b46bcbf5ba6054c
+  - enabled: 1
+    path: Assets/Malware Scam/91 Scam Shield 2.unity
+    guid: a3aae72799e615e4a8df5eef729a52ed
+  - enabled: 1
+    path: Assets/Malware Scam/92 Scam Shield 3.unity
+    guid: 9f31b20ef078ed447bef72eb4dc35a53
+  - enabled: 1
+    path: Assets/Malware Scam/93 Scam Shield 4.unity
+    guid: c491ccef2af5ef14aa9fc47eee38957d
+  - enabled: 1
+    path: Assets/Malware Scam/94 Scam Shield 5.unity
+    guid: db70748b3f498e146a5efc2d95e3fd77
+  - enabled: 1
+    path: Assets/Malware Scam/99 End Report.unity
+    guid: f95c8245aa160a04db08e02b8bbb0a2d
+  - enabled: 1
+    path: Assets/Malware Scam/99b 3 Stars.unity
+    guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
   m_configObjects: {}
