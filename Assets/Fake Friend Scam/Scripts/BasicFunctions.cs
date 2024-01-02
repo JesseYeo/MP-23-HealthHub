@@ -23,6 +23,11 @@ public class BasicFunctions : MonoBehaviour
         SceneManager.LoadScene("ChatsMenu");
     }
 
+    public void OpenPaymentPage()
+    {
+        SceneManager.LoadScene("AppPaymentMenu");
+    }
+
     public void OpenSettings()
     {
         if (settings.activeSelf == true)
