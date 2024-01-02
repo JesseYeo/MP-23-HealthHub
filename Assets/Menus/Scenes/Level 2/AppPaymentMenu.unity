@@ -402,7 +402,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 362194828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829464568}
+        m_TargetAssemblyTypeName: DBSPaymentScreens, Assembly-CSharp
+        m_MethodName: ToTransferScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &362194828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +595,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e19ba7786fb3dd548b04c842012c3b15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 80f679cd687cc7d498f1e0a0239871f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -683,7 +695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 597702073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829464568}
+        m_TargetAssemblyTypeName: DBSPaymentScreens, Assembly-CSharp
+        m_MethodName: ToLoginScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &597702073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,6 +833,7 @@ GameObject:
   - component: {fileID: 829464567}
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
+  - component: {fileID: 829464568}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -865,6 +890,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829464568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829464564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46dc6490d1e07942bc59383cd4e6a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingScreen: {fileID: 1477210405}
+  LoginScreen: {fileID: 2052523727}
+  PaymentScreen: {fileID: 1484638923}
+  TransferScreen: {fileID: 1344817815}
 --- !u!1 &1009516621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1094,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1072207859}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829464568}
+        m_TargetAssemblyTypeName: DBSPaymentScreens, Assembly-CSharp
+        m_MethodName: ToPaymentScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1072207859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,7 +1312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1344817816
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1297,7 +1350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1477210406
 RectTransform:
   m_ObjectHideFlags: 0
