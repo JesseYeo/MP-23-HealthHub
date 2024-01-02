@@ -5,6 +5,7 @@ using UnityEngine;
 public class SettingsMenu : MonoBehaviour
 {
     public GameObject gameObject;  //panel
+    //public GameObject gameObjectResumeButton;
     bool active;
 
     public void OpenAndClose()     //open and close settings menu, press the settings button to opent the settings menu
@@ -12,11 +13,13 @@ public class SettingsMenu : MonoBehaviour
         if (active == false)
         {
             gameObject.transform.gameObject.SetActive(true);
+            //gameObjectResumeButton.transform.gameObject.SetActive(true);
             active = true;
         }
         else                       //press the settings button to close the settings button
         {
             gameObject.transform.gameObject.SetActive(false);
+            //gameObjectResumeButton.transform.gameObject.SetActive(false);
             active = false;
         }
     }
