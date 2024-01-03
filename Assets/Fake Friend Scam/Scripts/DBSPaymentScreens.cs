@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DBSPaymentScreens : MonoBehaviour
 {
@@ -26,5 +27,10 @@ public class DBSPaymentScreens : MonoBehaviour
     {
         PaymentScreen.SetActive(false);
         TransferScreen.SetActive(true);
+    }
+
+    public void ToLoseScreen()
+    {
+
     }
 }
