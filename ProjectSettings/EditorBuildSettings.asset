@@ -186,7 +186,7 @@ EditorBuildSettings:
     path: Assets/Malware Scam/99 End Report.unity
     guid: f95c8245aa160a04db08e02b8bbb0a2d
   - enabled: 1
-    path: Assets/Malware Scam/99b 3 Stars.unity
+    path: Assets/Malware Scam/99b Lose.unity
     guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
   - enabled: 1
     path: Assets/Menus/Scenes/Level 2/ChatsMenu.unity
