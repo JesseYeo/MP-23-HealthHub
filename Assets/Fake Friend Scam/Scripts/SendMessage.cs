@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UnknownSendMessage : MonoBehaviour
+public class SendMessage : MonoBehaviour
 {
     // Start is called before the first frame update
 

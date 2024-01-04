@@ -205,19 +205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 77960214}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 829464569}
-        m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
-        m_MethodName: LoadLoseScreen
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &77960214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,7 +834,6 @@ GameObject:
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
   - component: {fileID: 829464568}
-  - component: {fileID: 829464569}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -919,19 +906,6 @@ MonoBehaviour:
   LoginScreen: {fileID: 2052523727}
   PaymentScreen: {fileID: 1484638923}
   TransferScreen: {fileID: 1344817815}
---- !u!114 &829464569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings: {fileID: 1279606680}
 --- !u!1 &1009516621
 GameObject:
   m_ObjectHideFlags: 0
