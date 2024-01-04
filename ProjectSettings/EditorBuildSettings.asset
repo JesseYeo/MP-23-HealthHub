@@ -227,4 +227,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Extra Menus/L3WinL2ClearedMenu.unity
     guid: f9d7781621e7d56499ddd78cd18831ba
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DoNothingroute/Win1Star.unity
+    guid: c60d0fbf9719f024193cedff6caf6f81
   m_configObjects: {}
