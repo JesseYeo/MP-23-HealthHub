@@ -28,9 +28,4 @@ public class DBSPaymentScreens : MonoBehaviour
         PaymentScreen.SetActive(false);
         TransferScreen.SetActive(true);
     }
-
-    public void ToLoseScreen()
-    {
-
-    }
 }

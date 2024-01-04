@@ -39,4 +39,14 @@ public class BasicFunctions : MonoBehaviour
             settings.SetActive(true);
         }
     }
+
+    public void LoadWinScreen()
+    {
+        SceneManager.LoadScene("Level2WinScreen");
+    }
+
+    public void LoadLoseScreen()
+    {
+        SceneManager.LoadScene("Level2LoseScreen");
+    }
 }

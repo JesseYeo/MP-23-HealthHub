@@ -213,6 +213,7 @@ EditorBuildSettings:
     path: Assets/Menus/Scenes/LevelMenuLevel3Win.unity
     guid: 9ae3319e4b7042c4abda0fe440dda8d3
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Menus/Scenes/Extra Menus/L2WinL1ClearedMenu.unity
     guid: 807d11e867106684cbb0056528444bfb
   - enabled: 1
@@ -230,4 +231,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Phishing Scam/Scenes/StarGradingSystem/DoNothingroute/Win1Star.unity
     guid: c60d0fbf9719f024193cedff6caf6f81
+=======
+    path: Assets/Menus/Scenes/Level 2/Level2LoseScreen.unity
+    guid: e472832143ce8b941bafedb52404ab12
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2WinScreen.unity
+    guid: 914b1b99f9b250a448a6cb81a33dc939
+>>>>>>> Stashed changes
   m_configObjects: {}
