@@ -144,7 +144,7 @@ EditorBuildSettings:
     path: Assets/Malware Scam/04 Messages Clear.unity
     guid: d3080deba9a1b6643bd9ac93bf18623f
   - enabled: 1
-    path: Assets/Malware Scam/04b End Avoid.unity
+    path: Assets/Malware Scam/04b (99a) End Avoid.unity
     guid: 6db5ca65f073e1e428ae3a8a87c9f0c7
   - enabled: 1
     path: Assets/Malware Scam/05 Scam DL.unity
@@ -165,7 +165,7 @@ EditorBuildSettings:
     path: Assets/Malware Scam/11 Transactions.unity
     guid: 79c1f05db0435014d8f2fccab82bc6ba
   - enabled: 1
-    path: Assets/Malware Scam/12 End Scam Lose.unity
+    path: Assets/Malware Scam/12 (99b) End Scam Lose.unity
     guid: 91c8c2a061252ec43b11425b6e44140c
   - enabled: 1
     path: Assets/Malware Scam/90 Scam Shield 1.unity
@@ -183,10 +183,10 @@ EditorBuildSettings:
     path: Assets/Malware Scam/94 Scam Shield 5.unity
     guid: db70748b3f498e146a5efc2d95e3fd77
   - enabled: 1
-    path: Assets/Malware Scam/99 End Report.unity
+    path: Assets/Malware Scam/99c End Report.unity
     guid: f95c8245aa160a04db08e02b8bbb0a2d
   - enabled: 1
-    path: Assets/Malware Scam/99b Lose.unity
+    path: Assets/Malware Scam/99z Lose.unity
     guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
   - enabled: 1
     path: Assets/Menus/Scenes/Level 2/ChatsMenu.unity
