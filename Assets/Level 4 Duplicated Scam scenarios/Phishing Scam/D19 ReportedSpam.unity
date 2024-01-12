@@ -916,6 +916,7 @@ GameObject:
   - component: {fileID: 1128025864}
   - component: {fileID: 1128025863}
   - component: {fileID: 1128025862}
+  - component: {fileID: 1128025865}
   m_Layer: 5
   m_Name: FinishButton
   m_TagString: Untagged
@@ -932,7 +933,7 @@ RectTransform:
   m_GameObject: {fileID: 1128025860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.370036, y: 4.107284, z: 2.370036}
+  m_LocalScale: {x: 2.6843026, y: 4.65191, z: 2.6843026}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 584743445}
@@ -941,7 +942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 338, y: -1007}
+  m_AnchoredPosition: {x: 312, y: -1002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128025862
@@ -987,7 +988,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1128025863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1128025865}
+        m_TargetAssemblyTypeName: FinishReportandDelete, Assembly-CSharp
+        m_MethodName: MoveToFinishingStory
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1128025863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1039,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128025860}
   m_CullTransparentMesh: 1
+--- !u!114 &1128025865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128025860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11ef72273bdcaa4b8762e0353a3c751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1157995695
 GameObject:
   m_ObjectHideFlags: 0

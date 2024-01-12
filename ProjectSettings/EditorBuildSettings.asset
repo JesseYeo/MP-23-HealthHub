@@ -309,4 +309,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D03 PaymentComplete.unity
     guid: 7e7f27255dbf32f43b8cc360b2861478
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      1_3.unity
+    guid: 1c695de91775fc74f999f7ae2a74d9c4
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      2_3.unity
+    guid: 9a6412395da081a478ff40b806897c7c
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      3_3.unity
+    guid: e45de451c0a2ee0449c7154a7182627f
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen.unity
+    guid: fc0e05b768dd0344882b0813e8e33710
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen
+      2_3.unity
+    guid: 094644e982be46049963041818dc417b
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen
+      3_3.unity
+    guid: 92eb3a715c6c7344382b2fae9e4645de
   m_configObjects: {}
