@@ -300,4 +300,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D19 ReportedSpam.unity
     guid: 851911285c0f59a4ebb8fcbe3ec2ef69
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D01 Payment.unity
+    guid: 0dc3fb7215639e442818c777ad9a45ca
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D02 PaymentLoading.unity
+    guid: 922104d235ef94145876ef64f3bbad63
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D03 PaymentComplete.unity
+    guid: 7e7f27255dbf32f43b8cc360b2861478
   m_configObjects: {}
