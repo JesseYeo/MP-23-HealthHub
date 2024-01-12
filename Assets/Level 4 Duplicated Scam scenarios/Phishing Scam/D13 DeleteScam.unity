@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 696717505}
   - component: {fileID: 696717504}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SettingsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 1320177701}
   - component: {fileID: 1320177700}
   m_Layer: 5
-  m_Name: Image
+  m_Name: DeleteDone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,6 +763,7 @@ GameObject:
   - component: {fileID: 1527300460}
   - component: {fileID: 1527300459}
   - component: {fileID: 1527300458}
+  - component: {fileID: 1527300461}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -834,7 +835,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1527300459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1527300461}
+        m_TargetAssemblyTypeName: DeleteCompleteToScamEmail, Assembly-CSharp
+        m_MethodName: MoveToDeleteCompletetoScamEmail
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 91
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1527300459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -873,6 +886,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527300456}
   m_CullTransparentMesh: 1
+--- !u!114 &1527300461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527300456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73f5de895e29344e99daa723632e77c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1539676992
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1018,7 @@ GameObject:
   - component: {fileID: 1604561837}
   - component: {fileID: 1604561836}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Delete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1306,7 +1331,7 @@ GameObject:
   - component: {fileID: 1902930252}
   - component: {fileID: 1902930251}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Report
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

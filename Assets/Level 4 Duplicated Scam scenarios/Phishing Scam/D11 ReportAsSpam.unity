@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 36205579}
   - component: {fileID: 36205578}
   - component: {fileID: 36205577}
+  - component: {fileID: 36205580}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -206,7 +207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 36205578}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 36205580}
+        m_TargetAssemblyTypeName: ReportCompleteToScamEmail, Assembly-CSharp
+        m_MethodName: MoveToScamEmailafterreport
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 89
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &36205578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +258,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36205575}
   m_CullTransparentMesh: 1
+--- !u!114 &36205580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36205575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfd07a031e70c9468a8479853379a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &121030276
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +282,7 @@ GameObject:
   - component: {fileID: 121030279}
   - component: {fileID: 121030278}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Scam Email
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,7 +587,7 @@ GameObject:
   - component: {fileID: 594996827}
   - component: {fileID: 594996826}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Delete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -949,7 +974,7 @@ GameObject:
   - component: {fileID: 1375071088}
   - component: {fileID: 1375071087}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SettingsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1179,7 @@ GameObject:
   - component: {fileID: 1826691495}
   - component: {fileID: 1826691494}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1230,7 +1255,7 @@ GameObject:
   - component: {fileID: 2036790345}
   - component: {fileID: 2036790344}
   m_Layer: 5
-  m_Name: Image
+  m_Name: SpamReported
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1306,7 +1331,7 @@ GameObject:
   - component: {fileID: 2116498854}
   - component: {fileID: 2116498853}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Report
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

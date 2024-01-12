@@ -242,4 +242,62 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Level 4/Level4WinMenu.unity
     guid: 1f425fda2a07ca04899a631d291cb937
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D01 Scam Notification.unity
+    guid: 6ba161ea3dddb7041936e2c7bed896a0
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D02 Scam Email.unity
+    guid: 96f973044921b5245941dc9a32716138
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D03 Scam Website.unity
+    guid: 3f8b33db0ec774e4cb7af5bc49a091a5
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D04 Add Tabs.unity
+    guid: 446ab7d818a91874b8d7be5c21d6a6e5
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D05 Google.unity
+    guid: 1ca44382d8006354ba3f6fdee3f0b635
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D06 Singpost Website.unity
+    guid: 587d318fc7f154d4baf6d8cac4836db6
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D07 Track.unity
+    guid: 33524275321101f43a5abe9584bf1d45
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D08 Singpost to
+      Scam Email.unity
+    guid: 658ad044fa75e9b47b20030d26e2575e
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D09 ReturnToScamEmail.unity
+    guid: f0cc7b943467f994ebe868a42c8fb367
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D10 Report Scam.unity
+    guid: 98176c1169568b94b9cece9bbddc2271
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D11 ReportAsSpam.unity
+    guid: 18bb828f12971d9488dd2898265981d9
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D12 ReportDone.unity
+    guid: b1ed39b29f122a64e8db22848d418efc
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D13 DeleteScam.unity
+    guid: f09a9316413e1294c98152e34da61f5c
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D14 DeleteDone.unity
+    guid: 996709896213cb54c8dd2c600a614b2d
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D15 DeleteScam.unity
+    guid: d4b6b669fe2f13844899c610cb5d462a
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D16 DeletedScam.unity
+    guid: 259e5dffbb1ff474892d59055569129f
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D17 Report Scam.unity
+    guid: 396feb8dcbde3ac4c8a7976c9885065e
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D18 ReportAsSpam.unity
+    guid: 0e9cbea893007ca4b94170c2ce2b25ef
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D19 ReportedSpam.unity
+    guid: 851911285c0f59a4ebb8fcbe3ec2ef69
   m_configObjects: {}
