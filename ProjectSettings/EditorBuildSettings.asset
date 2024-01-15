@@ -332,4 +332,7 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen
       3_3.unity
     guid: 92eb3a715c6c7344382b2fae9e4645de
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2Homepage.unity
+    guid: d758bbadbc15dd44f89d5900a88c56cd
   m_configObjects: {}

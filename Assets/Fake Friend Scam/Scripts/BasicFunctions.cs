@@ -8,15 +8,6 @@ public class BasicFunctions : MonoBehaviour
 {
     public GameObject settings;
 
-    public void OpenUnknownNoChat()
-    {
-        SceneManager.LoadScene("UnknownNoChat");
-    }
-
-    public void OpenStevenChat()
-    {
-        SceneManager.LoadScene("StevenChat");
-    }
 
     public void BackToChats()
     {
@@ -39,4 +30,6 @@ public class BasicFunctions : MonoBehaviour
             settings.SetActive(true);
         }
     }
+
+
 }
