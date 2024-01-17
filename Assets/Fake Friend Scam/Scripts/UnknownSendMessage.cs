@@ -39,7 +39,7 @@ public class UnknownSendMessage : MonoBehaviour
         messageoption1.SetActive(false);
         message1.SetActive(true);
         sent1 = true;
-        Invoke("", 1);
+        Invoke("UnknownReply1", 1);
     }
     
     public void SendMessage2()
@@ -67,9 +67,19 @@ public class UnknownSendMessage : MonoBehaviour
     //methods used when invoking replies from unknown number
     public void UnknownReply1()
     {
+        unknownreply1.SetActive(true);
+        messageoption2.SetActive(false);
+    }
+
+    public void UnknownReply2()
+    {
 
     }
 
+    public void UnknownReply3()
+    {
+
+    }
 
 
     //method for checking which messages player has previously sent

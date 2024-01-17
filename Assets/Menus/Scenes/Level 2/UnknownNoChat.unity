@@ -327,7 +327,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464571}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
         m_MethodName: BackToChats
         m_Mode: 1
@@ -997,7 +997,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464571}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
         m_MethodName: OpenPaymentPage
         m_Mode: 1
@@ -1180,9 +1180,6 @@ GameObject:
   - component: {fileID: 829464567}
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
-  - component: {fileID: 829464568}
-  - component: {fileID: 829464570}
-  - component: {fileID: 829464571}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1239,65 +1236,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &829464568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7b70b43a9e6d443bc09b9da6cdf8df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messageoption1: {fileID: 1041662330}
-  messageoption2: {fileID: 1756223044}
-  messageoption3: {fileID: 1591025087}
-  messageoption4: {fileID: 887032403}
-  message1: {fileID: 546438148}
-  message2: {fileID: 2044557066}
-  message3: {fileID: 1570285706}
-  message4: {fileID: 1246015243}
-  unknownreply1: {fileID: 0}
-  unknownreply2: {fileID: 0}
-  unknownreply3: {fileID: 0}
-  unknownreply4: {fileID: 0}
---- !u!114 &829464570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a08ee5caa4d65458e968e2dd7c755b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chatoption3: {fileID: 1591025087}
-  chatoption4: {fileID: 887032403}
-  messagedisplay1: {fileID: 0}
-  messagedisplay2: {fileID: 0}
-  messagedisplay3: {fileID: 0}
-  messagedisplay4: {fileID: 0}
-  option1: 0
-  option2: 0
-  option3: 0
-  option4: 0
---- !u!114 &829464571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings: {fileID: 789876780}
 --- !u!1 &845592677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,7 +1435,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464568}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SendMessage, Assembly-CSharp
         m_MethodName: SendMessage4
         m_Mode: 1
@@ -1975,7 +1913,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464568}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SendMessage, Assembly-CSharp
         m_MethodName: SendMessage1
         m_Mode: 1
@@ -2704,7 +2642,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464568}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SendMessage, Assembly-CSharp
         m_MethodName: SendMessage3
         m_Mode: 1
@@ -2837,7 +2775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464571}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
         m_MethodName: OpenSettings
         m_Mode: 1
@@ -3121,7 +3059,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464568}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SendMessage, Assembly-CSharp
         m_MethodName: SendMessage2
         m_Mode: 1
