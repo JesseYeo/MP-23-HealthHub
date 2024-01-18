@@ -335,4 +335,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Scenes/Level 2/Level2Homepage.unity
     guid: d758bbadbc15dd44f89d5900a88c56cd
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/01 Malware Scam Notification.unity
+    guid: 60f5f430fbf2a7848a20b3bffc3a255b
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/01 Fake Friend
+      Scam Notification.unity
+    guid: a5fb6c618b1df12478795840724292ad
   m_configObjects: {}
