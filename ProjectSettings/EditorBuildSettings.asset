@@ -189,6 +189,12 @@ EditorBuildSettings:
     path: Assets/Malware Scam/99z Lose.unity
     guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
   - enabled: 1
+    path: Assets/Malware Scam/99z Win1.unity
+    guid: 9024b7a2f3c2a504a896317f7e124c73
+  - enabled: 1
+    path: Assets/Malware Scam/99z Pass.unity
+    guid: 4a505bf28d8f44f4f9e5ee845419e815
+  - enabled: 1
     path: Assets/Menus/Scenes/Level 2/ChatsMenu.unity
     guid: 17cde02fc4f30e2499bc814e747a1487
   - enabled: 1
