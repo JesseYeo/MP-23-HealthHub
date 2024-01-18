@@ -349,7 +349,7 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/00 Malware Scam Notification.unity
     guid: 60f5f430fbf2a7848a20b3bffc3a255b
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/02 Lock Screen.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/02 Lock Screen4.unity
     guid: 414feb747e4e71b408f6b8060b30e076
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/03 Scam SMS4.unity
@@ -361,7 +361,7 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04 Messages Clear4.unity
     guid: 312293ae63c422a41a1b49e0d7ad1ac8
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04b End Avoid.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04b End Avoid4.unity
     guid: d44aecb78d54b0d48a98e097173a74b9
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/05 Scam DL4.unity
@@ -370,13 +370,13 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/06 DL Page4.unity
     guid: 36805ddad2aaa844b9ec106f110909a0
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/07 Fake Login.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/07 Fake Login4.unity
     guid: 6779ffa4e6c60354eb4997c973709b32
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/10 Load 2.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/10 Load 24.unity
     guid: 6d1f5fe4e59af0845b0512837dda359d
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/11 Transactions.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/11 Transactions4.unity
     guid: a5ce9413f0982f849a9cfa0ca9e74ce5
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/12 End Scam Lose.unity
@@ -415,4 +415,10 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/100 Scam Shield Report
       FL.unity
     guid: 4f4ddeecce7f48f4a9ba7c6c6f4b0d66
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/D Lose Screen 2_3.unity
+    guid: 91759bfc86d39964d85122452e58ff7a
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/D Win Screen 2_3.unity
+    guid: 564a4011ca4f3c440aa1bd9fd1b08b24
   m_configObjects: {}
