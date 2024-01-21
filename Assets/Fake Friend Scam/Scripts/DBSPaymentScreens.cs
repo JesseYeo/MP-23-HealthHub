@@ -11,26 +11,45 @@ public class DBSPaymentScreens : MonoBehaviour
     public GameObject PaymentScreen;
     public GameObject TransferScreen;
     
-    public void ToLoginScreen()
+    public void ForwardToLoginScreen()
     {
         StartingScreen.SetActive(false);
         LoginScreen.SetActive(true);
     }
 
-    public void ToPaymentScreen()
+    public void ForwardToPaymentScreen()
     {
         LoginScreen.SetActive(false);
         PaymentScreen.SetActive(true);
     }
 
-    public void ToTransferScreen()
+    public void ForwardToTransferScreen()
     {
         PaymentScreen.SetActive(false);
         TransferScreen.SetActive(true);
     }
 
-    public void ToLoseScreen()
+    public void ForwardToLoseScreen()
     {
+        SceneManager.LoadScene("");
+    }
 
+    public void BacktoStartingScreenFromLogin()
+    {
+        StartingScreen.SetActive(true);
+        LoginScreen.SetActive(false) ;
+    }
+
+    public void BacktoStartingScreenFromPayment()
+    {
+        StartingScreen.SetActive(true);
+        PaymentScreen.SetActive(false);
+    }
+
+    public void BacktoPaymentScreen()
+    {
+        PaymentScreen.SetActive(true);
+        TransferScreen.SetActive(false);
     }
 }
+

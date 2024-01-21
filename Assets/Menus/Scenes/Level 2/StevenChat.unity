@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &10864473
 RectTransform:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ RectTransform:
   - {fileID: 463330661}
   - {fileID: 2110859751}
   - {fileID: 1580724533}
-  - {fileID: 500165002}
+  - {fileID: 539379743}
   m_Father: {fileID: 1102213344}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -356,8 +356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 386.948}
-  m_SizeDelta: {x: 1170, y: 1612.104}
+  m_AnchoredPosition: {x: 0, y: 387}
+  m_SizeDelta: {x: 1170, y: 1612}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77909219
 MonoBehaviour:
@@ -904,7 +904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &458924842
 RectTransform:
   m_ObjectHideFlags: 0
@@ -981,7 +981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &463330661
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1047,8 +1047,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: OptionSelect, Assembly-CSharp
-        m_MethodName: onSelectOption1
+        m_TargetAssemblyTypeName: StevenSendMessage, Assembly-CSharp
+        m_MethodName: SendMessage1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1096,7 +1096,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463330660}
   m_CullTransparentMesh: 1
---- !u!1 &500165001
+--- !u!1 &539379742
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1104,10 +1104,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 500165002}
-  - component: {fileID: 500165005}
-  - component: {fileID: 500165004}
-  - component: {fileID: 500165003}
+  - component: {fileID: 539379743}
+  - component: {fileID: 539379746}
+  - component: {fileID: 539379745}
+  - component: {fileID: 539379744}
   m_Layer: 5
   m_Name: Button 4
   m_TagString: Untagged
@@ -1115,13 +1115,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!224 &500165002
+--- !u!224 &539379743
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500165001}
+  m_GameObject: {fileID: 539379742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 9.5, y: 1.2, z: 1}
@@ -1132,16 +1132,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -76, y: -626}
+  m_AnchoredPosition: {x: -76, y: -781}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &500165003
+--- !u!114 &539379744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500165001}
+  m_GameObject: {fileID: 539379742}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -1175,17 +1175,29 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 500165004}
+  m_TargetGraphic: {fileID: 539379745}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &500165004
+      m_Calls:
+      - m_Target: {fileID: 829464570}
+        m_TargetAssemblyTypeName: StevenSendMessage, Assembly-CSharp
+        m_MethodName: SendMessage4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &539379745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500165001}
+  m_GameObject: {fileID: 539379742}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1199,7 +1211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d94b5e89ab47224aa7f361778d8b594, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f02b1df867914474bb9b1ec5e1eba3ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1209,13 +1221,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &500165005
+--- !u!222 &539379746
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500165001}
+  m_GameObject: {fileID: 539379742}
   m_CullTransparentMesh: 1
 --- !u!1 &654648164
 GameObject:
@@ -1234,7 +1246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &654648165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1629,9 +1641,8 @@ GameObject:
   - component: {fileID: 829464567}
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
-  - component: {fileID: 829464568}
-  - component: {fileID: 829464569}
   - component: {fileID: 829464570}
+  - component: {fileID: 829464569}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1688,33 +1699,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &829464568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7b70b43a9e6d443bc09b9da6cdf8df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerchatbubble1: {fileID: 0}
-  playerchatbubble2: {fileID: 0}
-  playerchatbubble3: {fileID: 0}
-  playerchatbubble4: {fileID: 0}
-  unknownchatbubble1: {fileID: 0}
-  unknownchatbubble2: {fileID: 0}
-  unknownchatbubble3: {fileID: 0}
-  unknownchatbubble4: {fileID: 0}
-  messagedisplay1: {fileID: 0}
-  messagedisplay2: {fileID: 0}
-  messagedisplay3: {fileID: 0}
-  messagedisplay4: {fileID: 0}
-  optionselect2: {fileID: 0}
-  optionselect3: {fileID: 0}
-  optionselect4: {fileID: 0}
 --- !u!114 &829464569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1737,19 +1721,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 829464564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a08ee5caa4d65458e968e2dd7c755b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e2c56bd9156605438703754975203f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chatoption3: {fileID: 0}
-  chatoption4: {fileID: 0}
-  messagedisplay1: {fileID: 0}
-  messagedisplay2: {fileID: 0}
-  messagedisplay3: {fileID: 0}
-  messagedisplay4: {fileID: 0}
-  option1: 0
-  option2: 0
-  option3: 0
-  option4: 0
+  messageoption1: {fileID: 463330660}
+  messageoption2: {fileID: 2110859750}
+  messageoption3: {fileID: 1580724532}
+  messageoption4: {fileID: 539379742}
+  message1: {fileID: 654648164}
+  message2: {fileID: 10864472}
+  message3: {fileID: 1311270495}
+  message4: {fileID: 1454881738}
+  stevenreply1: {fileID: 1851337691}
+  stevenreply2: {fileID: 458924841}
+  optionsopen: 0
 --- !u!1 &904013606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,7 +1893,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 991156495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829464570}
+        m_TargetAssemblyTypeName: StevenSendMessage, Assembly-CSharp
+        m_MethodName: OpenMessageOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &991156495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2030,7 +2027,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464568}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SendMessage, Assembly-CSharp
         m_MethodName: onSendMessage
         m_Mode: 1
@@ -2692,7 +2689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1311270496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2768,7 +2765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1454881739
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2911,8 +2908,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: OptionSelect, Assembly-CSharp
-        m_MethodName: onSelectOption3
+        m_TargetAssemblyTypeName: StevenSendMessage, Assembly-CSharp
+        m_MethodName: SendMessage3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3098,7 +3095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851337692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3489,8 +3486,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: OptionSelect, Assembly-CSharp
-        m_MethodName: onSelectOption2
+        m_TargetAssemblyTypeName: StevenSendMessage, Assembly-CSharp
+        m_MethodName: SendMessage2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

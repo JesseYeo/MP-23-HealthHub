@@ -27,7 +27,19 @@ public class UnknownSendMessage : MonoBehaviour
     public static bool sent3 = false;
     public static bool sent4 = false;
 
-    //check what messages has been ent by player
+    public bool optionsopen;
+
+    //general messages/replies
+    public GameObject sG_msg_select_option1;
+
+    //scenario A options
+    public GameObject sA_msg_select_option1;
+
+    //scenario B options
+    public GameObject sB_msg_select_option1;
+
+
+    //check what messages has been sent by player
     public void Start()
     {
         CheckforSent();
@@ -39,6 +51,7 @@ public class UnknownSendMessage : MonoBehaviour
         messageoption1.SetActive(false);
         message1.SetActive(true);
         sent1 = true;
+        optionsopen = false;
         Invoke("UnknownReply1", 1);
     }
     
@@ -47,20 +60,28 @@ public class UnknownSendMessage : MonoBehaviour
         messageoption2.SetActive(false);
         message2.SetActive(true);
         sent2 = true;
+        optionsopen = false;
+        Invoke("UnknownReply2", 1);
     }
     
     public void SendMessage3()
     {
         messageoption3.SetActive(false);
+        messageoption4.SetActive(false);
         message3.SetActive(true);
         sent3 = true;
+        optionsopen = false;
+        Invoke("UnknownReply3", 1);
     }
     
     public void SendMessage4()
     {
+        messageoption3.SetActive(false);
         messageoption4.SetActive(false);
         message4.SetActive(true);
         sent4 = true;
+        optionsopen = false;
+        Invoke("UnknownReply4", 1);
     }
     
     
@@ -68,18 +89,22 @@ public class UnknownSendMessage : MonoBehaviour
     public void UnknownReply1()
     {
         unknownreply1.SetActive(true);
-        messageoption2.SetActive(false);
     }
 
     public void UnknownReply2()
     {
-
+        unknownreply2.SetActive(true);        
     }
 
     public void UnknownReply3()
     {
-
+        unknownreply3.SetActive(true);
     }
+
+    public void UnknownReply4()
+    {
+        unknownreply4.SetActive(true);
+    }    
 
 
     //method for checking which messages player has previously sent
@@ -94,17 +119,52 @@ public class UnknownSendMessage : MonoBehaviour
         if (sent2 == true)
         {
             message2.SetActive(true);
-
+            unknownreply2.SetActive(true);
         }
 
         if (sent3 == true)
         {
             message3.SetActive(true);
+            unknownreply3.SetActive(true);
         }
 
         if (sent4 == true)
         {
             message4.SetActive(true);
+            unknownreply4.SetActive(true);
         }
-    }    
+    }
+
+    public void OpenMessageOptions()
+    {
+        if (optionsopen == true)
+        {
+            optionsopen = false;
+            messageoption1.SetActive(false);
+            messageoption2.SetActive(false);
+            messageoption3.SetActive(false);
+            messageoption4.SetActive(false);
+        }
+        else
+        {
+            if (sent1 != true)
+            {
+                optionsopen = true;
+                messageoption1.SetActive(true);
+            }
+            else if (sent2 != true)
+            {
+                optionsopen = true;
+                messageoption2.SetActive(true);
+            }
+            else if (sent3 != true && sent4 != true)
+            {
+                optionsopen = true;
+                messageoption3.SetActive(true);
+                messageoption4.SetActive(true);
+            }          
+        }
+    
+
+    }
 }
