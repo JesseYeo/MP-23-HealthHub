@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -224,7 +224,6 @@ GameObject:
   - component: {fileID: 829464566}
   - component: {fileID: 829464565}
   - component: {fileID: 829464568}
-  - component: {fileID: 829464569}
   - component: {fileID: 829464570}
   m_Layer: 0
   m_Name: EventSystem
@@ -295,18 +294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settings: {fileID: 1279606680}
---- !u!114 &829464569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829464564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73657023888ff5f4d8bb5aacf5e1bc45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &829464570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 4878999893202201989, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 829464569}
+      objectReference: {fileID: 0}
     - target: {fileID: 4878999893348683098, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
       propertyPath: m_Name
       value: Background
@@ -630,14 +617,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 829464570}
+    - target: {fileID: 4878999894011668251, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14bbb07893d152541b0e950ff5f88a29, type: 3}
     - target: {fileID: 4878999894501560341, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 829464569}
+      objectReference: {fileID: 0}
     - target: {fileID: 4878999894651670270, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 829464568}
+      objectReference: {fileID: 829464570}
+    - target: {fileID: 4878999894651670270, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChatsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4750be31a87446e47a5415e40ff25195, type: 3}
