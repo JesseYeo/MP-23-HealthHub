@@ -421,4 +421,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/D Win Screen 2_3b.unity
     guid: 564a4011ca4f3c440aa1bd9fd1b08b24
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/FF Scam Story.unity
+    guid: 361bf1c42e306d6429b69115678f57c4
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/FF Scam Story 1.unity
+    guid: ba5d907ae35438d49a69545e94e5cc7a
   m_configObjects: {}
