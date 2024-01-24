@@ -404,16 +404,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99c End Report.unity
     guid: 8a36d79936a491642a2e636451bb1046
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Errors.unity
     guid: 07fc7a22734a2ad44b1f4d06189122f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Lose.unity
     guid: 3dedda0d9f5ac944c9fd4dc3a64c6b09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Pass.unity
     guid: ba85a6230fdb2574da7a6be6363f2b75
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Win1.unity
     guid: 064f4fa68b2f3d945be118772f0bbf0e
   - enabled: 0
@@ -447,8 +447,7 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/StevenChat (Level
       4).unity
     guid: 36018076c5bb7e14d890bcf134e54492
-  - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/UnknownNoChat
-      (Level 4).unity
-    guid: 1138f565a4a92024dbfd9e4d928f8c15
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
