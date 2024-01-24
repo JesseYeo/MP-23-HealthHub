@@ -361,7 +361,8 @@ EditorBuildSettings:
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04 Messages Clear4.unity
     guid: 312293ae63c422a41a1b49e0d7ad1ac8
   - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04b End Avoid4.unity
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/Old Scenes/04b End
+      Avoid4.unity
     guid: d44aecb78d54b0d48a98e097173a74b9
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/05 Scam DL4.unity
@@ -390,8 +391,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/92 Scam Shield 3four.unity
     guid: 1c65445b61764c748a0af68e2ce3dd63
-  - enabled: 1
-    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/93 Scam Shield 4four.unity
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/Old Scenes/93 Scam
+      Shield 4four.unity
     guid: 4610585efab6a8e4c978ac21e95a5d38
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/93b Scam Shield 4four.unity
