@@ -31,7 +31,7 @@ public class DBSPaymentScreens : MonoBehaviour
 
     public void ForwardToLoseScreen()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Level2LoseScreen");
     }
 
     public void BacktoStartingScreenFromLogin()

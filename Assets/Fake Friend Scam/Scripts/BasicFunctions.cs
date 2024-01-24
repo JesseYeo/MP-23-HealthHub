@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class BasicFunctions : MonoBehaviour
 {
     public GameObject settings;
+    public GameObject whatsappsettings;
 
 
     public void BackToChats()
@@ -19,17 +20,15 @@ public class BasicFunctions : MonoBehaviour
         SceneManager.LoadScene("AppPaymentMenu");
     }
 
-    public void OpenSettings()
+    public void OpenWhatsappSettings()
     {
-        if (settings.activeSelf == true)
+        if (whatsappsettings.activeSelf == true)
         {
-            settings.SetActive(false);
+            whatsappsettings.SetActive(false);
         }
         else
         {
-            settings.SetActive(true);
+            whatsappsettings.SetActive(true);
         }
     }
-
-
 }
