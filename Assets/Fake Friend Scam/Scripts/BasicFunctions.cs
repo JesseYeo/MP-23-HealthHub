@@ -31,4 +31,12 @@ public class BasicFunctions : MonoBehaviour
             whatsappsettings.SetActive(true);
         }
     }
+
+    public void ReportandBlock()
+    {
+        if (Level4StartButton.level4 == true)
+        {
+            SceneManager.LoadScene("02 Lock Screen4");
+        }
+    }
 }

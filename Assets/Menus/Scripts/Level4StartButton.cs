@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Level4StartButton : MonoBehaviour
 {
-    public void MoveToLevel4Scenario(int sceneID)
+    public static bool level4 = false;
+    
+    
+    public void MoveToLevel4Scenario()
     {
-        SceneManager.LoadScene(sceneID);
+        level4 = true;
+        SceneManager.LoadScene("ChatsMenu");
     }
 }
