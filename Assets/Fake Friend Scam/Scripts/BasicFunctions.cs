@@ -39,4 +39,9 @@ public class BasicFunctions : MonoBehaviour
             SceneManager.LoadScene("02 Lock Screen4");
         }
     }
+
+    public void StorytoLevelStart()
+    {
+
+    }
 }
