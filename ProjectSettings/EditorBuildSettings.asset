@@ -4,5 +4,453 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/ScamNotification.unity
+    guid: 94a1703c89581ed468e06f1b3145bc53
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/01Scam Email screen.unity
+    guid: 6d2df9a021ba2f74c933791031af00a2
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/02Scam Website screen.unity
+    guid: 23d36be724239d94080c55102c653e7d
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/03Add Tabs Screen.unity
+    guid: 024ea178e4ddd2945870eb0bc64f32a8
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/04Google Screen.unity
+    guid: a989c50bfe9a90048affaee2fb24bceb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/05Singpost Website.unity
+    guid: 15f0c8d2c1a06054bb58c68db692ea23
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/06Track.unity
+    guid: 9359350544cf05d4e94ea32f8720c187
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/07SingPostToScamEmail.unity
+    guid: e2da8849a4e000f45b8a12ba3efc60a9
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/08ReturntoScamEmail.unity
+    guid: 9abfb07dfb310ce4e989f3cd19988ff5
+  - enabled: 1
+    path: Assets/Menus/Scenes/Start Menu.unity
+    guid: b01b4f52c4e9fd3428a822db8742cdbc
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level Menu.unity
+    guid: 7454f2c0b00523f40af3af30d56f3d5b
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 1/Level1Menu.unity
+    guid: 8d9cdcef762a9b248aef8b3d6d198b4b
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StartingStory1.unity
+    guid: 15ceff336af5d6d4f81958503845abe2
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StartingStory2.unity
+    guid: 1409b7e650ea9de49be759971134940f
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ScamEmailToReport.unity
+    guid: f24dfc663fa90cf488c2381b791fad05
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ReportScreenToReportComplete.unity
+    guid: ded6c7ba0c53df34793b82951153aa6f
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/ScamEmailafterReportOnly.unity
+    guid: ad1fb66905c82994abe945dcfa39f832
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportOnlyroute/Win2StarReportOnly.unity
+    guid: edb49d19a542b0a49a8c9710892e0748
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ToDeleteScreen.unity
+    guid: 82855963d89c819428ce51db286c42e2
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ScamEmailafterDelete.unity
+    guid: 60f7e0217ae40b846bc786376fa5fdcb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/Win3Star.unity
+    guid: e511d7bbeb170814a9ab3f67503cd783
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/ToDeleteScam.unity
+    guid: a8e0d328b19523441aeb80849437d0a7
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/ScamEmailafterDeleteScam.unity
+    guid: a7fa6e1d1db2829489e16022bb0635fb
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DeleteOnlyroute/Win2StarDeleteOnly.unity
+    guid: 36321a60379a2ce4aa168ce687f00773
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ToReportScreen.unity
+    guid: 01d944ad2a84db14fbb61644c60ffb39
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ReportComplete.unity
+    guid: dc9f64a03524f2541abf3b3cf9a6c728
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/ReportandDeleteroute/ScamEmailafterReport.unity
+    guid: f4537f3c3c225ca48b341733290a4484
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/FinishingStory1.unity
+    guid: 1824ccc3af3aa5042aecc619cacb95d0
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/FinishingStory2.unity
+    guid: c7750bfdadd73ec42a73adff28456fba
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/09ScamIdentifiedScreen.unity
+    guid: 8a60e3f09d024194aafbb82914e012e6
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/01Payment Screen.unity
+    guid: c1ae73802e9426045bf00d0952d20640
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/02PaymentLoadingScreen.unity
+    guid: 0328c0949c31ed14dbde21581ce9267c
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/03PaymentCompleteScreen.unity
+    guid: 2ac9f0de0150c6040a07fa31163cb612
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/04ScammedScreen.unity
+    guid: 33b5e1c8e4d3ed847918a1b0f160379e
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/LoseScreen.unity
+    guid: 7798e5e2c10a8c4478c5adf7f83034c0
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel1Win.unity
+    guid: 42626996eb6d9df47b0d5484a940fc56
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 1/Level1ClearedMenu.unity
+    guid: c157c509c275a6749a93fed4cb255356
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2ClearedMenu.unity
+    guid: 7434d0043b46cb84cbde276d7b01c63f
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2Menu.unity
+    guid: d67a2638ada38ea409cf7ba80e438415
+  - enabled: 0
+    path: Assets/Malware Scam/000 Scene Template.unity
+    guid: 90483ec0bfdae6943bb7d476d000abab
+  - enabled: 1
+    path: Assets/Malware Scam/01a Starting Screen.unity
+    guid: 0b26a284f33ffff43a48c4bed1eac986
+  - enabled: 1
+    path: Assets/Malware Scam/01b Starting Screen.unity
+    guid: dda6ecadc8b025a41805e21b6183fa24
+  - enabled: 1
+    path: Assets/Malware Scam/02 Lock Screen.unity
+    guid: 6e4481a4e033700449ba618ca1fbde3f
+  - enabled: 1
+    path: Assets/Malware Scam/03 Scam SMS.unity
+    guid: 04cece61127e28347a793264db6e2e94
+  - enabled: 1
+    path: Assets/Malware Scam/03b Scam Block.unity
+    guid: cdc9677989f45284485b339a94c78e51
+  - enabled: 1
+    path: Assets/Malware Scam/04 Messages Clear.unity
+    guid: d3080deba9a1b6643bd9ac93bf18623f
+  - enabled: 1
+    path: Assets/Malware Scam/04b End Avoid.unity
+    guid: 6db5ca65f073e1e428ae3a8a87c9f0c7
+  - enabled: 1
+    path: Assets/Malware Scam/05 Scam DL.unity
+    guid: 739c06508fbe8da4680ab80a48747c6d
+  - enabled: 1
+    path: Assets/Malware Scam/06 DL Page.unity
+    guid: c111211ca8bd05e4b9c0ed429d724f05
+  - enabled: 1
+    path: Assets/Malware Scam/07 Fake Login.unity
+    guid: fc78dd6647920b048b5a65960bd8df29
+  - enabled: 1
+    path: Assets/Malware Scam/09 (NOT IN USE) Load 1.unity
+    guid: 8e94062bf35eb0940a2fd1eba005c59e
+  - enabled: 1
+    path: Assets/Malware Scam/10 Load 2.unity
+    guid: 2b2eedf67016adf4a93d08a9e16254c0
+  - enabled: 1
+    path: Assets/Malware Scam/11 Transactions.unity
+    guid: 79c1f05db0435014d8f2fccab82bc6ba
+  - enabled: 1
+    path: Assets/Malware Scam/12 End Scam Lose.unity
+    guid: 91c8c2a061252ec43b11425b6e44140c
+  - enabled: 1
+    path: Assets/Malware Scam/90 Scam Shield 1.unity
+    guid: 81fb512fe4932a944b46bcbf5ba6054c
+  - enabled: 1
+    path: Assets/Malware Scam/91 Scam Shield 2.unity
+    guid: a3aae72799e615e4a8df5eef729a52ed
+  - enabled: 1
+    path: Assets/Malware Scam/92 Scam Shield 3.unity
+    guid: 9f31b20ef078ed447bef72eb4dc35a53
+  - enabled: 1
+    path: Assets/Malware Scam/93 Scam Shield 4.unity
+    guid: c491ccef2af5ef14aa9fc47eee38957d
+  - enabled: 1
+    path: Assets/Malware Scam/94 Scam Shield 5.unity
+    guid: db70748b3f498e146a5efc2d95e3fd77
+  - enabled: 1
+    path: Assets/Malware Scam/99c End Report.unity
+    guid: f95c8245aa160a04db08e02b8bbb0a2d
+  - enabled: 1
+    path: Assets/Malware Scam/99z Lose.unity
+    guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
+  - enabled: 0
+    path: Assets/Malware Scam/99z Win1.unity
+    guid: 9024b7a2f3c2a504a896317f7e124c73
+  - enabled: 0
+    path: Assets/Malware Scam/99z Pass.unity
+    guid: 4a505bf28d8f44f4f9e5ee845419e815
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/ChatsMenu.unity
+    guid: 17cde02fc4f30e2499bc814e747a1487
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/StevenChat.unity
+    guid: 426479339bfda904e85ace7ce9695f28
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/UnknownNoChat.unity
+    guid: e312f2601b6af78418c42fca94a65b21
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/AppPaymentMenu.unity
+    guid: b4e4adbb8bc5edc4c8aabcad8ed0e1ae
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 3/Level3Menu.unity
+    guid: 1207441fdfa7e7948b62296a934c1ecf
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 3/Level3ClearedMenu.unity
+    guid: d628b93e41321a14587b1fcfea5fd621
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel2Win.unity
+    guid: 23cadf54be9bc9c4aaf0d80b29d57f41
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel3Win.unity
+    guid: 9ae3319e4b7042c4abda0fe440dda8d3
+  - enabled: 1
+    path: Assets/Menus/Scenes/Extra Menus/L2WinL1ClearedMenu.unity
+    guid: 807d11e867106684cbb0056528444bfb
+  - enabled: 1
+    path: Assets/Menus/Scenes/Extra Menus/L2WinL2ClearedMenu.unity
+    guid: c85a9c4b8b9f573419b48a0000ebcae7
+  - enabled: 1
+    path: Assets/Menus/Scenes/Extra Menus/L3WinL3ClearedMenu.unity
+    guid: 1030a105204f85646ae372549a989ee5
+  - enabled: 1
+    path: Assets/Menus/Scenes/Extra Menus/L3WinL1ClearedMenu.unity
+    guid: 02200ab39be72e745b04f1a0ec6b8b62
+  - enabled: 1
+    path: Assets/Menus/Scenes/Extra Menus/L3WinL2ClearedMenu.unity
+    guid: f9d7781621e7d56499ddd78cd18831ba
+  - enabled: 1
+    path: Assets/Phishing Scam/Scenes/StarGradingSystem/DoNothingroute/Win1Star.unity
+    guid: c60d0fbf9719f024193cedff6caf6f81
+  - enabled: 1
+    path: Assets/Menus/Scenes/LevelMenuLevel4Win.unity
+    guid: d436364a174e2244cb251f81399a5f89
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 4/Level4Menu.unity
+    guid: 83f211bc75388ff429748ee360f70bc9
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 4/Level4UpdatedMenu.unity
+    guid: 616783361c7960442b49ea48d026a383
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 4/Level4WinMenu.unity
+    guid: 1f425fda2a07ca04899a631d291cb937
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D01 Scam Notification.unity
+    guid: 6ba161ea3dddb7041936e2c7bed896a0
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D02 Scam Email.unity
+    guid: 96f973044921b5245941dc9a32716138
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D03 Scam Website.unity
+    guid: 3f8b33db0ec774e4cb7af5bc49a091a5
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D04 Add Tabs.unity
+    guid: 446ab7d818a91874b8d7be5c21d6a6e5
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D05 Google.unity
+    guid: 1ca44382d8006354ba3f6fdee3f0b635
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D06 Singpost Website.unity
+    guid: 587d318fc7f154d4baf6d8cac4836db6
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D07 Track.unity
+    guid: 33524275321101f43a5abe9584bf1d45
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D08 Singpost to
+      Scam Email.unity
+    guid: 658ad044fa75e9b47b20030d26e2575e
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D09 ReturnToScamEmail.unity
+    guid: f0cc7b943467f994ebe868a42c8fb367
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D10 Report Scam.unity
+    guid: 98176c1169568b94b9cece9bbddc2271
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D11 ReportAsSpam.unity
+    guid: 18bb828f12971d9488dd2898265981d9
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D12 ReportDone.unity
+    guid: b1ed39b29f122a64e8db22848d418efc
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D13 DeleteScam.unity
+    guid: f09a9316413e1294c98152e34da61f5c
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D14 DeleteDone.unity
+    guid: 996709896213cb54c8dd2c600a614b2d
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D15 DeleteScam.unity
+    guid: d4b6b669fe2f13844899c610cb5d462a
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D16 DeletedScam.unity
+    guid: 259e5dffbb1ff474892d59055569129f
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D17 Report Scam.unity
+    guid: 396feb8dcbde3ac4c8a7976c9885065e
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D18 ReportAsSpam.unity
+    guid: 0e9cbea893007ca4b94170c2ce2b25ef
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D19 ReportedSpam.unity
+    guid: 851911285c0f59a4ebb8fcbe3ec2ef69
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D01 Payment.unity
+    guid: 0dc3fb7215639e442818c777ad9a45ca
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D02 PaymentLoading.unity
+    guid: 922104d235ef94145876ef64f3bbad63
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Phishing Scam/D03 PaymentComplete.unity
+    guid: 7e7f27255dbf32f43b8cc360b2861478
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      1_3.unity
+    guid: 1c695de91775fc74f999f7ae2a74d9c4
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      2_3.unity
+    guid: 9a6412395da081a478ff40b806897c7c
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Win Screen
+      3_3.unity
+    guid: e45de451c0a2ee0449c7154a7182627f
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen.unity
+    guid: fc0e05b768dd0344882b0813e8e33710
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen
+      2_3.unity
+    guid: 094644e982be46049963041818dc417b
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/WinAndLoseScreens/D Lose Screen
+      3_3.unity
+    guid: 92eb3a715c6c7344382b2fae9e4645de
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/Level2Homepage.unity
+    guid: d758bbadbc15dd44f89d5900a88c56cd
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/01 Fake Friend
+      Scam Notification.unity
+    guid: a5fb6c618b1df12478795840724292ad
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/00 Malware Scam Notification.unity
+    guid: 60f5f430fbf2a7848a20b3bffc3a255b
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/02 Lock Screen4.unity
+    guid: 414feb747e4e71b408f6b8060b30e076
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/03 Scam SMS4.unity
+    guid: 09e0e8ae4d0e67743b7afe732de35745
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/03b Scam Block4.unity
+    guid: f3db683ff3390e54c907e98c8da307c8
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/04 Messages Clear4.unity
+    guid: 312293ae63c422a41a1b49e0d7ad1ac8
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/Old Scenes/04b End
+      Avoid4.unity
+    guid: d44aecb78d54b0d48a98e097173a74b9
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/05 Scam DL4.unity
+    guid: 30fa3aed0099f9848ab4c2763912cee8
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/06 DL Page4.unity
+    guid: 36805ddad2aaa844b9ec106f110909a0
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/07 Fake Login4.unity
+    guid: 6779ffa4e6c60354eb4997c973709b32
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/10 Load 2_4.unity
+    guid: 6d1f5fe4e59af0845b0512837dda359d
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/11 Transactions4.unity
+    guid: a5ce9413f0982f849a9cfa0ca9e74ce5
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/12 End Scam Lose4.unity
+    guid: 019fce55553ac7b46a2d3a8d281c562d
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/90 Scam Shield 1four.unity
+    guid: bea2bc52928b30a4883118c881092878
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/91 Scam Shield 2four.unity
+    guid: 0e97696774c03504a834d494cb57a802
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/92 Scam Shield 3four.unity
+    guid: 1c65445b61764c748a0af68e2ce3dd63
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/Old Scenes/93 Scam
+      Shield 4four.unity
+    guid: 4610585efab6a8e4c978ac21e95a5d38
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/93b Scam Shield 4four.unity
+    guid: 45b8568cd8e8f9641852b5491ba6ada2
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/94 Scam Shield 5four.unity
+    guid: 517cdc0ae91b7044080f1f4a78ebcb2f
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99c End Report.unity
+    guid: 8a36d79936a491642a2e636451bb1046
+<<<<<<< Updated upstream
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Errors.unity
+    guid: 07fc7a22734a2ad44b1f4d06189122f4
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Lose.unity
+    guid: 3dedda0d9f5ac944c9fd4dc3a64c6b09
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Pass.unity
+    guid: ba85a6230fdb2574da7a6be6363f2b75
+  - enabled: 0
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Win1.unity
+    guid: 064f4fa68b2f3d945be118772f0bbf0e
+=======
+>>>>>>> Stashed changes
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/D Lose Screen 2_3b.unity
+    guid: 91759bfc86d39964d85122452e58ff7a
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/D Win Screen 2_3b.unity
+    guid: 564a4011ca4f3c440aa1bd9fd1b08b24
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/FF Scam Story.unity
+    guid: 361bf1c42e306d6429b69115678f57c4
+  - enabled: 1
+    path: Assets/Menus/Scenes/Level 2/FF Scam Story 1.unity
+    guid: ba5d907ae35438d49a69545e94e5cc7a
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/ChatsMenu (Level
+      4).unity
+    guid: f6ed4c1a7e5c2b24d97dc10aac7ff1d0
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/AppPaymentMenu
+      (Level 4).unity
+    guid: 57b908a72e8b8be409e5fe909b597fa8
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/Level2Homepage
+      (Level 4).unity
+    guid: a170ab199d3b1894a86ad15f80bf21c4
+  - enabled: 1
+    path: Assets/Level 4 Duplicated Scam scenarios/Fake Friend Scam/StevenChat (Level
+      4).unity
+    guid: 36018076c5bb7e14d890bcf134e54492
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
