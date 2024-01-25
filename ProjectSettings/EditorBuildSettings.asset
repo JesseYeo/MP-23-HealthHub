@@ -404,7 +404,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99c End Report.unity
     guid: 8a36d79936a491642a2e636451bb1046
-<<<<<<< Updated upstream
   - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Errors.unity
     guid: 07fc7a22734a2ad44b1f4d06189122f4
@@ -417,8 +416,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Level 4 Duplicated Scam scenarios/Malware Scam/99z Win1.unity
     guid: 064f4fa68b2f3d945be118772f0bbf0e
-=======
->>>>>>> Stashed changes
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
