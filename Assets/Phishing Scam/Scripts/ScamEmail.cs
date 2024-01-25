@@ -10,6 +10,11 @@ public class ScamEmail : MonoBehaviour
         SceneManager.LoadScene(sceneID);
     }
 
+    //public void OpenScamWebsite()
+    //{
+    //    SceneManager.LoadScene("02Scam Website screen");
+    //}
+
     public GameObject gameObject;
     bool active;
 
