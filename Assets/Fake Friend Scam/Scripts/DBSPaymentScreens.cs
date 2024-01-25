@@ -31,7 +31,7 @@ public class DBSPaymentScreens : MonoBehaviour
 
     public void ForwardToLoseScreen()
     {
-        if (Level4StartButton.level4 == true)
+        if (LevelStart.level4 == true)
         {
             SceneManager.LoadScene("D Lose Screen");
         }

@@ -11,20 +11,32 @@ public class LevelChecker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Level4StartButton.level4 == true)
+        if (LevelStart.level4 == true)
         {
             level4title.SetActive(true);
             hintbutton.SetActive(false);
+        }
+
+        if (LevelStart.level2 == true)
+        {
+            level2title.SetActive(true);
+            hintbutton.SetActive(true);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Level4StartButton.level4 == true)
+        if (LevelStart.level4 == true)
         {
             level4title.SetActive(true);
             hintbutton.SetActive(false);
+        }
+
+        if (LevelStart.level2 == true)
+        {
+            level2title.SetActive(true);
+            hintbutton.SetActive(true);
         }
     }
 }
