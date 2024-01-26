@@ -32,14 +32,6 @@ public class BasicFunctions : MonoBehaviour
         }
     }
 
-    public void ReportandBlock()
-    {
-        if (LevelStart.level4 == true)
-        {
-            SceneManager.LoadScene("02 Lock Screen4");
-        }
-    }
-
     public void StorytoLevelStart()
     {
         SceneManager.LoadScene("ChatsMenu");

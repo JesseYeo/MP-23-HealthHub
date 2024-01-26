@@ -16,10 +16,18 @@ public class HintSystem : MonoBehaviour
 
     public bool dbshintopen;
 
+
+
     public GameObject unknownhint1;
     public GameObject unknownhint2;
-    public GameObject unknownhint3;       
-    public GameObject unknownhint4;
+    public GameObject unknownhint3;
+
+    public GameObject unknowncheckpoint1;
+    public GameObject unknowncheckpoint2;
+    public GameObject unknowncheckpoint3;
+
+    public bool unknownhintopen;
+
 
 
     public GameObject stevenhint1;
@@ -83,5 +91,31 @@ public class HintSystem : MonoBehaviour
             }
 
         }
+    }
+
+    public void UnknownHints()
+    {
+        if (unknownhintopen == true)
+        {
+            unknownhint1.SetActive(false);
+            unknownhint2.SetActive(false);
+            unknownhint3.SetActive(false);
+        }
+        else
+        {
+            if (unknowncheckpoint1.activeSelf == true || unknowncheckpoint2.activeSelf == true)
+            {
+                unknownhint2.SetActive(true);
+            }
+            else if (unknowncheckpoint3 == true)
+            {
+                unknownhint3.SetActive(true);
+            }
+            else
+            {
+                unknownhint1.SetActive(true);
+            }
+        }
+
     }
 }
