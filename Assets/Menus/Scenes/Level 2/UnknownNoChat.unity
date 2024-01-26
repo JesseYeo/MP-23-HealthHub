@@ -1882,7 +1882,7 @@ MonoBehaviour:
   unknowncheckpoint1: {fileID: 1291063426}
   unknowncheckpoint2: {fileID: 2031234027}
   unknowncheckpoint3: {fileID: 171649550}
-  unknownhintopen: {fileID: 0}
+  unknownhintopen: 0
   stevenhint1: {fileID: 0}
   stevenhint2: {fileID: 0}
   stevenmessagecheck: {fileID: 0}

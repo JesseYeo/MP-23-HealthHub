@@ -30,6 +30,4 @@ public class ChatsMenu : MonoBehaviour
     {
         SceneManager.LoadScene("StevenChat");
     }
-
-
 }

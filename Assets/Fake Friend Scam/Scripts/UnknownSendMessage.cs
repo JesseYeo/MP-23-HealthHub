@@ -32,7 +32,6 @@ public class UnknownSendMessage : MonoBehaviour
     public GameObject unknownreply3;
     public GameObject unknownreply4;
     public GameObject unknownreply5;
-    public GameObject unknownreply6;
 
     public static bool sent1 = false;
     public static bool sent2 = false;
@@ -156,6 +155,7 @@ public class UnknownSendMessage : MonoBehaviour
     //method for checking which messages player has previously sent
     public void CheckforSent()
     {
+        
         if (sent1 == true)
         {
             message1.SetActive(true);
@@ -189,7 +189,6 @@ public class UnknownSendMessage : MonoBehaviour
         if (sent6 == true)
         {
             message6.SetActive(true);
-            unknownreply6.SetActive(true);
         }
 
         if (sent7 == true)
@@ -219,10 +218,6 @@ public class UnknownSendMessage : MonoBehaviour
             {
                     noactions.SetActive(true);
                     optionsopen = true;
-            }
-            else if (sent8 == true)
-            {
-
             }
             else if (sent1 != true)
             {
