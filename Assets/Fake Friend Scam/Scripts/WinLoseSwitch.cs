@@ -13,7 +13,7 @@ public class WinLoseSwitch : MonoBehaviour
         }   
         else if (LevelStart.level4 == true)
         {
-            SceneManager.LoadScene("D Lose Screen");
+            SceneManager.LoadScene("D Win Screen 1_3");
         }
     }
 
@@ -25,7 +25,7 @@ public class WinLoseSwitch : MonoBehaviour
         }
         else if (LevelStart.level4 == true)
         {
-            SceneManager.LoadScene("D Win Screen 1_3");
+            SceneManager.LoadScene("D Lose Screen");
         }
     }
 

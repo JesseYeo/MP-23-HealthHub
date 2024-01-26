@@ -1304,7 +1304,10 @@ MonoBehaviour:
   unknownhint1: {fileID: 0}
   unknownhint2: {fileID: 0}
   unknownhint3: {fileID: 0}
-  unknownhint4: {fileID: 0}
+  unknowncheckpoint1: {fileID: 0}
+  unknowncheckpoint2: {fileID: 0}
+  unknowncheckpoint3: {fileID: 0}
+  unknownhintopen: 0
   stevenhint1: {fileID: 0}
   stevenhint2: {fileID: 0}
   stevenmessagecheck: {fileID: 0}
@@ -2504,7 +2507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1344817816
 RectTransform:
   m_ObjectHideFlags: 0
