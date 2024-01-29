@@ -30,4 +30,9 @@ public class ChatsMenu : MonoBehaviour
     {
         SceneManager.LoadScene("StevenChat");
     }
+
+    public void BackToChats()
+    {
+        SceneManager.LoadScene("ChatsMenu");
+    }
 }

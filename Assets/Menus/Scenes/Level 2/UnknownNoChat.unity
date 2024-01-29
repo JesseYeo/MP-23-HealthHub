@@ -491,8 +491,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
+      - m_Target: {fileID: 829464574}
+        m_TargetAssemblyTypeName: ChatsMenu, Assembly-CSharp
         m_MethodName: BackToChats
         m_Mode: 1
         m_Arguments:
@@ -1706,6 +1706,7 @@ GameObject:
   - component: {fileID: 829464571}
   - component: {fileID: 829464572}
   - component: {fileID: 829464573}
+  - component: {fileID: 829464574}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1796,7 +1797,6 @@ MonoBehaviour:
   unknownreply3: {fileID: 1291063426}
   unknownreply4: {fileID: 1995732406}
   unknownreply5: {fileID: 2031234027}
-  unknownreply6: {fileID: 0}
   optionsopen: 0
 --- !u!114 &829464569
 MonoBehaviour:
@@ -1887,6 +1887,19 @@ MonoBehaviour:
   stevenhint2: {fileID: 0}
   stevenmessagecheck: {fileID: 0}
   stevenhintopen: 0
+--- !u!114 &829464574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829464564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61357ebdb2c7de547b1840b5778f131a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unreadicon: {fileID: 0}
 --- !u!1 &837993936
 GameObject:
   m_ObjectHideFlags: 0

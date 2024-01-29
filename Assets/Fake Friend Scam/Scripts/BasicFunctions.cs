@@ -10,15 +10,6 @@ public class BasicFunctions : MonoBehaviour
     public GameObject whatsappsettings;
 
 
-    public void BackToChats()
-    {
-        SceneManager.LoadScene("ChatsMenu");
-    }
-
-    public void OpenPaymentPage()
-    {
-        SceneManager.LoadScene("AppPaymentMenu");
-    }
 
     public void OpenWhatsappSettings()
     {
