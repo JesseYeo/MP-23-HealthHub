@@ -1639,8 +1639,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829464572}
-        m_TargetAssemblyTypeName: WinLoseSwitch, Assembly-CSharp
+      - m_Target: {fileID: 829464570}
+        m_TargetAssemblyTypeName: GenericFunctions, Assembly-CSharp
         m_MethodName: LevelWin
         m_Mode: 1
         m_Arguments:
@@ -1826,7 +1826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 789876780}
   whatsappsettings: {fileID: 789876780}
 --- !u!114 &829464571
 MonoBehaviour:

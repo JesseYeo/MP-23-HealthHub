@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BasicFunctions : MonoBehaviour
+public class GenericFunctions : MonoBehaviour
 {
-    public GameObject settings;
     public GameObject whatsappsettings;
 
 
 
+    //opens the settings of the Whatsapp scene
     public void OpenWhatsappSettings()
     {
         if (whatsappsettings.activeSelf == true)
@@ -23,11 +23,13 @@ public class BasicFunctions : MonoBehaviour
         }
     }
 
+    //go from the story to the starting screen of the level
     public void StorytoLevelStart()
     {
         SceneManager.LoadScene("ChatsMenu");
     }
 
+    //resets the level for the player to be able to retry
     public void Level4Retry()
     {
         if (LevelStart.level4 == false)
@@ -59,4 +61,32 @@ public class BasicFunctions : MonoBehaviour
             SceneManager.LoadScene("ChatsMenu");
         }
     }
+
+    //triggers upon winning the level
+    public void LevelWin()
+    {
+        if (LevelStart.level2 == true)
+        {
+            SceneManager.LoadScene("Level2WinScreen");
+        }
+        else if (LevelStart.level4 == true)
+        {
+            SceneManager.LoadScene("D Win Screen 1_3");
+        }
+    }
+
+    //triggers upon losing the level
+    public void LevelLose()
+    {
+        if (LevelStart.level2 == true)
+        {
+            SceneManager.LoadScene("Level2LoseScreen");
+        }
+        else if (LevelStart.level4 == true)
+        {
+            SceneManager.LoadScene("D Lose Screen");
+        }
+    }
+
+
 }
