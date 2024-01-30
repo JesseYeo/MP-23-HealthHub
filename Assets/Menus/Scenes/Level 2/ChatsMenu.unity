@@ -825,7 +825,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a38b9193d789647a8fc68794131845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 1279606680}
   whatsappsettings: {fileID: 0}
 --- !u!114 &829464570
 MonoBehaviour:
