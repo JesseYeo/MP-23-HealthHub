@@ -15,11 +15,6 @@ public class NavigationBar : MonoBehaviour
         SceneManager.LoadScene("Level2Homepage");
     }
 
-    public void ToTabs()
-    {
-        SceneManager.LoadScene("Level2Tabspage");
-    }
-
     public void ToBackPaymentMenu()
     {
         if (StartingScreen.activeSelf == true)

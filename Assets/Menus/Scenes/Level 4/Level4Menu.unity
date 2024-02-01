@@ -600,7 +600,6 @@ GameObject:
   - component: {fileID: 454985456}
   - component: {fileID: 454985455}
   - component: {fileID: 454985454}
-  - component: {fileID: 454985457}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -673,8 +672,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 454985457}
-        m_TargetAssemblyTypeName: Level4StartButton, Assembly-CSharp
+      - m_Target: {fileID: 1605456456}
+        m_TargetAssemblyTypeName: LevelStart, Assembly-CSharp
         m_MethodName: MoveToLevel4Scenario
         m_Mode: 1
         m_Arguments:
@@ -723,18 +722,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454985452}
   m_CullTransparentMesh: 1
---- !u!114 &454985457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454985452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e5ce4784bb37164e87e4a9cb8315101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &488298124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1197,7 @@ GameObject:
   - component: {fileID: 1605456455}
   - component: {fileID: 1605456454}
   - component: {fileID: 1605456453}
+  - component: {fileID: 1605456456}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1266,6 +1254,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605456456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605456452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5ce4784bb37164e87e4a9cb8315101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1666080025
 GameObject:
   m_ObjectHideFlags: 0
