@@ -189,7 +189,7 @@ EditorBuildSettings:
     path: Assets/Malware Scam/99z Lose.unity
     guid: 9bf63ba7e6f96d64fa1b415dd7f01f01
   - enabled: 0
-    path: Assets/Malware Scam/99z Win1.unity
+    path: Assets/Malware Scam/99z Win.unity
     guid: 9024b7a2f3c2a504a896317f7e124c73
   - enabled: 0
     path: Assets/Malware Scam/99z Pass.unity
