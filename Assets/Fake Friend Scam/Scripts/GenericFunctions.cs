@@ -43,6 +43,10 @@ public class GenericFunctions : MonoBehaviour
             UnknownSendMessage.sent6 = false;
             UnknownSendMessage.sent7 = false;
             UnknownSendMessage.sent8 = false;
+            StevenSendMessage.sent1 = false ;
+            StevenSendMessage.sent2 = false ;
+            StevenSendMessage.sent3 = false ;
+            StevenSendMessage.sent4 = false ;
             ChatsMenu.unread = true;
             SceneManager.LoadScene("ChatsMenu");
             
@@ -57,6 +61,10 @@ public class GenericFunctions : MonoBehaviour
             UnknownSendMessage.sent6 = false;
             UnknownSendMessage.sent7 = false;
             UnknownSendMessage.sent8 = false;
+            StevenSendMessage.sent1 = false;
+            StevenSendMessage.sent2 = false;
+            StevenSendMessage.sent3 = false;
+            StevenSendMessage.sent4 = false;
             ChatsMenu.unread = true;
             SceneManager.LoadScene("ChatsMenu");
         }
