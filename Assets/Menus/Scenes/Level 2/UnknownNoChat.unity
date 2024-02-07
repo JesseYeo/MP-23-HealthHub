@@ -1664,8 +1664,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
-        m_MethodName: OpenPaymentPage
+        m_TargetAssemblyTypeName: GenericFunctions, Assembly-CSharp
+        m_MethodName: ToDBS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1745,7 +1745,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 921295071}
-  m_Father: {fileID: 970415663}
+  m_Father: {fileID: 860808119}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2268,6 +2268,7 @@ RectTransform:
   - {fileID: 970415663}
   - {fileID: 1936419293}
   - {fileID: 1718038533}
+  - {fileID: 789876781}
   m_Father: {fileID: 1009516625}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2599,7 +2600,6 @@ RectTransform:
   - {fileID: 668651963}
   - {fileID: 1633610448}
   - {fileID: 203184305}
-  - {fileID: 789876781}
   m_Father: {fileID: 860808119}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4475,8 +4475,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829464570}
-        m_TargetAssemblyTypeName: BasicFunctions, Assembly-CSharp
-        m_MethodName: OpenPaymentPage
+        m_TargetAssemblyTypeName: GenericFunctions, Assembly-CSharp
+        m_MethodName: ToDBS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

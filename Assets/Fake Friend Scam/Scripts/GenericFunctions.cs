@@ -23,6 +23,11 @@ public class GenericFunctions : MonoBehaviour
         }
     }
 
+    public void ToDBS()
+    {
+        SceneManager.LoadScene("AppPaymentMenu");
+    }
+
     //go from the story to the starting screen of the level
     public void StorytoLevelStart()
     {
