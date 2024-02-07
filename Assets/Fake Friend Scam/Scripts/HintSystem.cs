@@ -97,6 +97,7 @@ public class HintSystem : MonoBehaviour
     {
         if (unknownhintopen == true)
         {
+            unknownhintopen = false;
             unknownhint1.SetActive(false);
             unknownhint2.SetActive(false);
             unknownhint3.SetActive(false);
@@ -105,15 +106,18 @@ public class HintSystem : MonoBehaviour
         {
             if (unknowncheckpoint1.activeSelf == true || unknowncheckpoint2.activeSelf == true)
             {
-                unknownhint2.SetActive(true);
-            }
-            else if (unknowncheckpoint3 == true)
-            {
                 unknownhint3.SetActive(true);
+                unknownhintopen = true;
+            }
+            else if (unknowncheckpoint3.activeSelf == true)
+            {
+                unknownhint2.SetActive(true);
+                unknownhintopen = true;
             }
             else
             {
                 unknownhint1.SetActive(true);
+                unknownhintopen = true;
             }
         }
 
