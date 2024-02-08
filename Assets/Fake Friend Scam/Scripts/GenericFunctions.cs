@@ -75,6 +75,46 @@ public class GenericFunctions : MonoBehaviour
         }
     }
 
+    public void Level2Retry()
+    {
+        if (LevelStart.level2 == false)
+        {
+            LevelStart.level2 = true;
+            UnknownSendMessage.sent1 = false;
+            UnknownSendMessage.sent2 = false;
+            UnknownSendMessage.sent3 = false;
+            UnknownSendMessage.sent4 = false;
+            UnknownSendMessage.sent5 = false;
+            UnknownSendMessage.sent6 = false;
+            UnknownSendMessage.sent7 = false;
+            UnknownSendMessage.sent8 = false;
+            StevenSendMessage.sent1 = false;
+            StevenSendMessage.sent2 = false;
+            StevenSendMessage.sent3 = false;
+            StevenSendMessage.sent4 = false;
+            ChatsMenu.unread = true;
+            SceneManager.LoadScene("ChatsMenu");
+
+        }
+        else
+        {
+            UnknownSendMessage.sent1 = false;
+            UnknownSendMessage.sent2 = false;
+            UnknownSendMessage.sent3 = false;
+            UnknownSendMessage.sent4 = false;
+            UnknownSendMessage.sent5 = false;
+            UnknownSendMessage.sent6 = false;
+            UnknownSendMessage.sent7 = false;
+            UnknownSendMessage.sent8 = false;
+            StevenSendMessage.sent1 = false;
+            StevenSendMessage.sent2 = false;
+            StevenSendMessage.sent3 = false;
+            StevenSendMessage.sent4 = false;
+            ChatsMenu.unread = true;
+            SceneManager.LoadScene("ChatsMenu");
+        }
+    }
+
     //triggers upon winning the level
     public void LevelWin()
     {
